@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C16B7F1F6244EF009E654C /* QiscusKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C16B751F6244EF009E654C /* QiscusKit.framework */; };
+		04C16B841F6244F0009E654C /* QiscusKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C16B831F6244F0009E654C /* QiscusKitTests.swift */; };
+		04C16B861F6244F0009E654C /* QiscusKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C16B781F6244EF009E654C /* QiscusKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C16B801F6244EF009E654C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C16B6C1F6244EF009E654C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C16B741F6244EF009E654C;
+			remoteInfo = QiscusKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C16B751F6244EF009E654C /* QiscusKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QiscusKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C16B781F6244EF009E654C /* QiscusKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiscusKit.h; sourceTree = "<group>"; };
+		04C16B791F6244EF009E654C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C16B7E1F6244EF009E654C /* QiscusKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiscusKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C16B831F6244F0009E654C /* QiscusKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiscusKitTests.swift; sourceTree = "<group>"; };
+		04C16B851F6244F0009E654C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C16B711F6244EF009E654C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C16B7B1F6244EF009E654C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C16B7F1F6244EF009E654C /* QiscusKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C16B6B1F6244EF009E654C = {
+			isa = PBXGroup;
+			children = (
+				04C16B771F6244EF009E654C /* QiscusKit */,
+				04C16B821F6244EF009E654C /* QiscusKitTests */,
+				04C16B761F6244EF009E654C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C16B761F6244EF009E654C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C16B751F6244EF009E654C /* QiscusKit.framework */,
+				04C16B7E1F6244EF009E654C /* QiscusKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C16B771F6244EF009E654C /* QiscusKit */ = {
+			isa = PBXGroup;
+			children = (
+				04C16B781F6244EF009E654C /* QiscusKit.h */,
+				04C16B791F6244EF009E654C /* Info.plist */,
+			);
+			path = QiscusKit;
+			sourceTree = "<group>";
+		};
+		04C16B821F6244EF009E654C /* QiscusKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C16B831F6244F0009E654C /* QiscusKitTests.swift */,
+				04C16B851F6244F0009E654C /* Info.plist */,
+			);
+			path = QiscusKitTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04C16B721F6244EF009E654C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C16B861F6244F0009E654C /* QiscusKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04C16B741F6244EF009E654C /* QiscusKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C16B891F6244F0009E654C /* Build configuration list for PBXNativeTarget "QiscusKit" */;
+			buildPhases = (
+				04C16B701F6244EF009E654C /* Sources */,
+				04C16B711F6244EF009E654C /* Frameworks */,
+				04C16B721F6244EF009E654C /* Headers */,
+				04C16B731F6244EF009E654C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiscusKit;
+			productName = QiscusKit;
+			productReference = 04C16B751F6244EF009E654C /* QiscusKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		04C16B7D1F6244EF009E654C /* QiscusKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C16B8C1F6244F0009E654C /* Build configuration list for PBXNativeTarget "QiscusKitTests" */;
+			buildPhases = (
+				04C16B7A1F6244EF009E654C /* Sources */,
+				04C16B7B1F6244EF009E654C /* Frameworks */,
+				04C16B7C1F6244EF009E654C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C16B811F6244EF009E654C /* PBXTargetDependency */,
+			);
+			name = QiscusKitTests;
+			productName = QiscusKitTests;
+			productReference = 04C16B7E1F6244EF009E654C /* QiscusKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C16B6C1F6244EF009E654C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = qiscus;
+				TargetAttributes = {
+					04C16B741F6244EF009E654C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QG8KA4P8TE;
+						ProvisioningStyle = Automatic;
+					};
+					04C16B7D1F6244EF009E654C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QG8KA4P8TE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04C16B6F1F6244EF009E654C /* Build configuration list for PBXProject "QiscusKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04C16B6B1F6244EF009E654C;
+			productRefGroup = 04C16B761F6244EF009E654C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C16B741F6244EF009E654C /* QiscusKit */,
+				04C16B7D1F6244EF009E654C /* QiscusKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C16B731F6244EF009E654C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C16B7C1F6244EF009E654C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C16B701F6244EF009E654C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C16B7A1F6244EF009E654C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C16B841F6244F0009E654C /* QiscusKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C16B811F6244EF009E654C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C16B741F6244EF009E654C /* QiscusKit */;
+			targetProxy = 04C16B801F6244EF009E654C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04C16B871F6244F0009E654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04C16B881F6244F0009E654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		04C16B8A1F6244F0009E654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QiscusKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiscus.sdk.QiscusKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04C16B8B1F6244F0009E654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QiscusKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiscus.sdk.QiscusKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		04C16B8D1F6244F0009E654C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = QiscusKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiscus.sdk.QiscusKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		04C16B8E1F6244F0009E654C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QG8KA4P8TE;
+				INFOPLIST_FILE = QiscusKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qiscus.sdk.QiscusKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C16B6F1F6244EF009E654C /* Build configuration list for PBXProject "QiscusKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C16B871F6244F0009E654C /* Debug */,
+				04C16B881F6244F0009E654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C16B891F6244F0009E654C /* Build configuration list for PBXNativeTarget "QiscusKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C16B8A1F6244F0009E654C /* Debug */,
+				04C16B8B1F6244F0009E654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04C16B8C1F6244F0009E654C /* Build configuration list for PBXNativeTarget "QiscusKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C16B8D1F6244F0009E654C /* Debug */,
+				04C16B8E1F6244F0009E654C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C16B6C1F6244EF009E654C /* Project object */;
+}
